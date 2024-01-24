@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./lib/bootstrap.min.css">
+  <style>
+    .full-screen-carousel .carousel-inner .carousel-item {
+      height: 300px;
+      min-height: 350px;
+      background: no-repeat center center scroll;
+      background-size: cover;
+    }
+
+    .card-img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div id="carousel" class="carousel carousel-fade slide full-screen-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div data-bs-interval="2000" class="carousel-item active"
+        style="background-image: url('https://cdn.pixabay.com/photo/2015/09/17/17/25/code-944499_1280.jpg')">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div data-bs-interval="2000" class="carousel-item"
+        style="background-image: url('https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg')">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div data-bs-interval="2000" class="carousel-item"
+        style="background-image: url('https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg')">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+    <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    <div class="carousel-indicators">
+      <button class="active" type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+      <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <h1 class="title pt-5">Posts recentes</h1>
+    <div class="row pt-5 ">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+        <article class="card text-bg-dark">
+          <header class="card-header">
+            Desenvolvimento Web
+          </header>
+          <img class="card-img" src="https://cdn.pixabay.com/photo/2018/11/13/18/05/html-3813614_1280.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Introdução ao html</h4>
+            <p class="card-text">
+              Conheça as principais tags do HTML.
+            </p>
+            <a href="#" class="btn btn-primary">Leia mais</a>
+          </div>
+          <footer class="card-footer">
+            Postado em <time>22/01/2024 às 23:00:00</time>
+          </footer>
+        </article>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+        <article class="card text-bg-dark">
+          <header class="card-header">
+            Desenvolvimento Web
+          </header>
+          <img class="card-img" src="https://cdn.pixabay.com/photo/2014/10/21/19/27/color-fan-496995_1280.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Introdução ao CSS</h4>
+            <p class="card-text">
+              Conheça os seletores de estilização.
+            </p>
+            <a href="#" class="btn btn-primary">Leia mais</a>
+          </div>
+          <footer class="card-footer">
+            Postado em <time>22/01/2024 às 23:00:00</time>
+          </footer>
+        </article>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+        <article class="card text-bg-dark">
+          <header class="card-header">
+            Desenvolvimento Web
+          </header>
+          <img class="card-img" src="https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_1280.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Introdução ao JavaScript</h4>
+            <p class="card-text">
+              A linguagem de programação do momento.
+            </p>
+            <a href="#" class="btn btn-primary">Leia mais</a>
+          </div>
+          <footer class="card-footer">
+            Postado em <time>22/01/2024 às 23:00:00</time>
+          </footer>
+        </article>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+        <article class="card text-bg-dark">
+          <header class="card-header">
+            Desenvolvimento Web
+          </header>
+          <img class="card-img" src="https://cdn.pixabay.com/photo/2020/06/10/09/31/mockup-5281991_1280.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Introdução ao jQuery</h4>
+            <p class="card-text">
+              Tudo sobre essa ferramenta fantastica.
+            </p>
+            <a href="#" class="btn btn-primary">Leia mais</a>
+          </div>
+          <footer class="card-footer">
+            Postado em <time>22/01/2024 às 23:00:00</time>
+          </footer>
+        </article>
+
+      </div>
+    </div>
+
+    
+  </div>
+
+
+
+  <script src="./lib/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
